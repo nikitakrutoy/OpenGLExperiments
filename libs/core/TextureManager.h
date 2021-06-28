@@ -1,0 +1,14 @@
+//
+// Created by Nikita Krutoy on 17.06.2021.
+//
+
+#ifndef TESTOPENGLPROJECT_TEXTUREMANAGER_H
+#define TESTOPENGLPROJECT_TEXTUREMANAGER_H
+
+
+class TextureManager {
+
+};
+
+
+#endif //TESTOPENGLPROJECT_TEXTUREMANAGER_H

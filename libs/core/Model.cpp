@@ -2,8 +2,10 @@
 // Created by Nikita Krutoy on 17.06.2021.
 //
 
+
+#define STB_IMAGE_IMPLEMENTATION
 #include "Model.h"
-#include "stb/stb_image.h"
+#include <stb/stb_image.h>
 #include <glm/gtc/type_ptr.hpp>
 
 unsigned int TextureFromFile(const char* path, const std::string &directory);

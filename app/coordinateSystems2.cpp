@@ -80,8 +80,8 @@ int main() {
     glewInit();
 
     Shader shader = Shader(
-            "/Users/nikitakrutoy/CLionProjects/TestOpenGLProject/shaders/vcoordinateSystems2.glsl",
-            "/Users/nikitakrutoy/CLionProjects/TestOpenGLProject/shaders/ftextures.glsl"
+            "/Users/nikitakrutoy/CLionProjects/TestOpenGLProject/resources/shaders/coordinateSystems2.vert.glsl",
+            "/Users/nikitakrutoy/CLionProjects/TestOpenGLProject/resources/shaders/textures.frag.glsl"
     );
     loadTexture("/Users/nikitakrutoy/CLionProjects/TestOpenGLProject/data/container.jpg", 0, false);
     stbi_set_flip_vertically_on_load(true);
